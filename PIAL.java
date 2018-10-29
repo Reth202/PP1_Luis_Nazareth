@@ -14,9 +14,24 @@ public class Vivienda {
 }
 
 package Controlador;
-publiic class Cliente {
+public abstract class Cliente {
 
 	
+}
+
+package Controlador;
+public class Docentes extends Cliente{
+
+}
+
+package Controlador;
+public class Addministrativos extends Cliente {
+
+}
+
+package Controlador;
+public class Pensionados extends Cliente{
+
 }
 
 package Vista;
