@@ -65,10 +65,12 @@ package Controlador;
 public class Pensionados extends Cliente{
 
 public static int Años_Jubi=0; //Años de jubilación
-public static String Tipo de empleado=""; //Docente ó Administrativo
+public static String Tipo_Emp=""; //Docente ó Administrativo
 
-public Pensionados (String nombre, String dni, float salario);
+public Pensionados (String nombre, String dni, float salario, int Años_jubi, String Tipo_emp);
 super(nombre, dni, salario);
+Años_Jubi=Años_jubi;
+Tipo_Emp=Tipo_emp;
 }
 }
 
